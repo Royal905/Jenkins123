@@ -510,7 +510,7 @@ public class GenericKeyword {
 
 	  //       wait.until((ExpectedCondition<Boolean>) wd ->
 	  //               ((JavascriptExecutor) wd).executeScript("return document.readyState").equals("complete"));
-		 System.out.println(" ");
+		 System.out.println(driver);
 	    }
 
 
