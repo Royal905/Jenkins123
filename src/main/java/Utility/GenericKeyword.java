@@ -505,11 +505,12 @@ public class GenericKeyword {
 	
 
 	 public void waitForPageToLoad(WebDriver driver) {
-	        @SuppressWarnings("deprecation")
-			WebDriverWait wait = new WebDriverWait(driver, 10); // Set the maximum wait time as needed
+	  //       @SuppressWarnings("deprecation")
+			// WebDriverWait wait = new WebDriverWait(driver, 10); // Set the maximum wait time as needed
 
-	        wait.until((ExpectedCondition<Boolean>) wd ->
-	                ((JavascriptExecutor) wd).executeScript("return document.readyState").equals("complete"));
+	  //       wait.until((ExpectedCondition<Boolean>) wd ->
+	  //               ((JavascriptExecutor) wd).executeScript("return document.readyState").equals("complete"));
+		 System.out.println(" ");
 	    }
 
 
